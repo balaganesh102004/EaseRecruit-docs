@@ -1,0 +1,34 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #691f74; /* Updated to match primary color from EaseRecruit-client */
+  --ifm-color-primary-dark: #44195d; /* Updated to match primary dark color */
+  --ifm-color-primary-darker: #3b0e4e; /* Adjusted for better contrast */
+  --ifm-color-primary-darkest: #2e0a3a; /* Adjusted for better contrast */
+  --ifm-color-primary-light: #f0e9f1; /* Updated to match primary light color */
+  --ifm-color-primary-lighter: #f7f2f5; /* Adjusted for a lighter shade */
+  --ifm-color-primary-lightest: #ffffff; /* Set to white for the lightest shade */
+  --ifm-code-font-size: 100%; /* Keep as is or adjust based on design */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* Keep as is */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #691f74; /* Updated to match primary color from EaseRecruit-client */
+  --ifm-color-primary-dark: #44195d; /* Updated to match primary dark color */
+  --ifm-color-primary-darker: #3b0e4e; /* Adjusted for better contrast */
+  --ifm-color-primary-darkest: #2e0a3a; /* Adjusted for better contrast */
+  --ifm-color-primary-light: #f0e9f1; /* Updated to match primary light color */
+  --ifm-color-primary-lighter: #f7f2f5; /* Adjusted for a lighter shade */
+  --ifm-color-primary-lightest: #ffffff; /* Set to white for the lightest shade */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* Keep as is */
+}
+
+html {
+  font-size: 18px; /* Adjust the size as needed */
+}
