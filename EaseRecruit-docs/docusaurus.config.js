@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ease Recruit',
-  tagline: 'Recruit with ease',
+  tagline: 'Effortlessly Connecting You to the Right ',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -67,7 +67,14 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+     [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true,
+      }),
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

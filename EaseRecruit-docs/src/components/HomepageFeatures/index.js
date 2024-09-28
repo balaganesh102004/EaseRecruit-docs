@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Seamless Onboarding',
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ease Recruit is built to ensure effortless setup and integration, allowing you to streamline your recruitment process and get your platform operational in no time.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Focus on Hiring',
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         Ease Recruit lets you concentrate on finding the best talent, while we handle the backend logistics. Simply organize your job postings and applications with ease.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by Modern Web Technologies',
+    Svg: require('@site/static/img/4.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Leverage the flexibility of React to extend and personalize your recruitment platform. Ease Recruit allows you to modify layouts while keeping a consistent experience with reusable components.
       </>
     ),
   },
